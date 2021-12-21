@@ -1,0 +1,191 @@
+﻿<head>
+    <link rel="stylesheet" type="text/css" href="~/css/Promocao.css">
+
+</head>
+ 
+   
+<main class="container">
+    <form style=" border:1px solid;" action="/signup" method="post">
+              <div class="radio"> 
+                <h2> Para Realizar Compra, faça Seu  Cadastro.</h2>
+                <form asp-action ="Cliente" method="post"
+                    <p>
+                        <label>Title</label><br>
+                        <form action=""method="post">
+                        <label>
+                          <input type="radio" name="title" value="mr">
+                          Sr
+                        </label>
+                        <label>
+                          <input type="radio" name="title" value="mrs">
+                          Sra
+                        </label>
+                        <label>
+                          <input type="radio" name="title" value="miss">
+                          Miss
+                        </label>
+                    </p>
+               </div>
+              <div class="cadastro" >
+               
+                <form>
+                  <table cellspacing="10">
+                    <tr>
+            
+                      <td>
+                        <label for="nome">Nome: </label>
+                        </td>
+                        <td align="left">
+                        <input type="text" name="nome">
+                        </td>
+                        <td>
+                        <label for="telefone">Telefone </label>
+                        </td>
+                        <td align="left">
+                        <input type="text" name="telefone">
+                        </td>
+                        <td>
+                          <label for="cpf">Cpf </label>
+                        </td>
+                        <td align="left">
+                          <input type="text" name="cpf">
+                        </td>
+                      </tr> 
+                      <tr>
+            
+                        <td>
+                          <label for="endereço">Rua</label>
+                          </td>
+                          <td align="left">
+                          <input type="text" name="endereço">
+                          </td>
+                          <td>
+                          <label for="cep">Cep</label>
+                          </td>
+                          <td align="left">
+                          <input type="text" name="cep">
+                          </td>
+                          <td>
+                            <label for="rg">RG</label>
+                          </td>
+                          <td align="left">
+                            <input type="text" name="rg">
+                          </td>
+                        </tr> 
+                            <tr>
+                              <td>
+                                <label for="nacionalidade">Nacionalidades</label>
+                              </td>
+                              <td align="left">
+                                <input type="text" name="nacionalidade">
+                              </td>
+                              <td>
+                                <label for="email">Email</label>
+                              </td>
+                              <td align="left">
+                                <input type="text" name="email">
+                              </td>
+                            <td>
+                          <label>Data Nascimento: </label>
+                          
+                          </td>
+                          <td align="left">
+                          <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+                          <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+                          <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+                          </td>
+                          </tr>
+                          
+                  </table>
+                      
+              
+                        <p>
+                          
+                          <label>Selecione estado</label>
+                          <select>
+                            <option>Acre</option>
+                            <option>Alagoas</option>
+                            <option>Amapá</option>
+                            <option>Amazonas</option>
+                            <option>Bahia</option>
+                            <option>Ceará</option>
+                            <option>Distrito Federal</option>
+                            <option>Espirito Santo</option>
+                            <option>Goiás</option>
+                            <option>Maranhão</option>
+                            <option>Mato Grosso</option>
+                            <option>Mato Grosso do Sul</option>
+                            <option>Minas Gerais</option>
+                            <option>Pará</option>
+                            <option>Paraiba</option>
+                            <option>Pernambuco</option>
+                            <option>Píaui</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Rio Grande do Sul</option>
+                            <option>Rondônia</option>
+                            <option>Roraima</option>
+                            <option>Santa Catarina</option>
+                            <option>São Paulo</option>
+                            <option>Sergipe</option>
+                            <option>Tocantins</option>
+                          
+                          </select>
+
+                          <td>
+                            <label for="cidade">Cidade</label>
+                          </td>
+                          <td align="left">
+                            <input type="text" name="cidade">
+                          </td>
+                       </p>
+
+                       <p>
+                        <label>Adicionar Dpendente</label><br>
+                          <button>Sim</buteton>
+                          <button>Não</button>
+                        </p><br>
+                        <p>
+                          <label>
+                            <input type="checkbox" value="terms">
+                            I agree to the <a href="/terms">terms and conditions</a>
+                          </label>
+                        </p>
+                        <p>
+                          <button>Sign up</button>
+                          <button type="reset">Reset form</button>
+                        </p><br><br>
+                  </form>
+                  
+               </div><br>
+               
+    <div class="tx">
+      <h2>Nosso Compromisso Com Você</h2><br><br>
+                
+          <p>
+            A Agencia de Turismo Autoestima é especializada em proporcionar a você e sua empresa o melhor em viagens para todo o Brasil e o Exterior. Nossos serviços são diferenciados, oferecendo o máximo em qualidade, eficiência, conforto, agilidade.
+          </p>
+      <h4>Eficiência no atendimento</h4>
+
+          <p>
+             A Agencia de Turismo Autoestima busca oferecer conexão totalmente informatizada com as companhias aéreas e hotéis selecionados para o seu maior conforto e agilidade no atendimento. 
+          </p>
+      <h4>Facilitando ao máximo sua viagem</h4>
+
+          <p>
+            Locação de veículos e reservas em hotéis no mundo inteiro: a Agencia de Turismo Autoestima faz tudo isso e muito mais para que sua comodidade e satisfação sejam completas.
+         </p>
+      <h4>Passagens e documentos</h4>
+
+        <p> 
+            Agencia de Turismo Autoestima faz reserva e emissão de passagens aéreas com a máxima eficiência e fornece ainda a organização completa de toda a documentação necessária em suas viagens. 
+        </p>
+              
+   </form>
+          
+          <div class="container">
+            <img src="img/images.png">
+          </div >
+
+          </main>
+  

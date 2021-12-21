@@ -1,0 +1,85 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Ag_Auto_Estima</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NovaPasta1\**" />
+    <Compile Remove="NovaPasta\**" />
+    <Compile Remove="Views\Home\NovaPasta\**" />
+    <Content Remove="NovaPasta1\**" />
+    <Content Remove="NovaPasta\**" />
+    <Content Remove="Views\Home\NovaPasta\**" />
+    <EmbeddedResource Remove="NovaPasta1\**" />
+    <EmbeddedResource Remove="NovaPasta\**" />
+    <EmbeddedResource Remove="Views\Home\NovaPasta\**" />
+    <None Remove="NovaPasta1\**" />
+    <None Remove="NovaPasta\**" />
+    <None Remove="Views\Home\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\HomeController.cs" />
+    <Compile Remove="Controllers\HomeController1.cs" />
+    <Compile Remove="Views\Home\Contato.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\.editorconfig" />
+    <Content Remove="wwwroot\css\Home.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\css\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\1_shutterstock_1363425368.jpg" />
+    <None Include="wwwroot\img\1_shutterstock_1429781333.jpg" />
+    <None Include="wwwroot\img\Bariloche %28Argentina%29.jpg" />
+    <None Include="wwwroot\img\Bas__lica_real_da_estrela__Lisboa.jpg" />
+    <None Include="wwwroot\img\beach park fortaleza.jpg" />
+    <None Include="wwwroot\img\beto carreiro.jpg" />
+    <None Include="wwwroot\img\buenos_aires.jpg" />
+    <None Include="wwwroot\img\cancun_nftqe6.jpg" />
+    <None Include="wwwroot\img\Caribe Holandes %28Aruba%29.jpg" />
+    <None Include="wwwroot\img\chapada diamantina  %28bahia%29.jpg" />
+    <None Include="wwwroot\img\Cusco %28Peru%29.jpg" />
+    <None Include="wwwroot\img\Dubai1.jpg" />
+    <None Include="wwwroot\img\Grand park Royal %28cancun%29.jpg" />
+    <None Include="wwwroot\img\images.png" />
+    <None Include="wwwroot\img\Madri %28Espanha%29.jpg" />
+    <None Include="wwwroot\img\Miami1.jpg" />
+    <None Include="wwwroot\img\Natal %28Rio Grande do Norte%29.jpg" />
+    <None Include="wwwroot\img\nova deli india.jpg" />
+    <None Include="wwwroot\img\orlando disnei.png" />
+    <None Include="wwwroot\img\Parati %28Rio de Janeiro%29.jpg" />
+    <None Include="wwwroot\img\pousada-arte-da-natureza %28bonito%29.jpg" />
+    <None Include="wwwroot\img\Resort brasil-tropical-village %28pipas%29.jpg" />
+    <None Include="wwwroot\img\Resort Grand oca Maragogi.jpeg" />
+    <None Include="wwwroot\img\resort maldivas.jpg" />
+    <None Include="wwwroot\img\Resorts be_live_canoa_collection_la_romana-rp.jpg" />
+    <None Include="wwwroot\img\toquio japão.jpg" />
+    <None Include="wwwroot\img\viajar01.jpg" />
+  </ItemGroup>
+
+</Project>
